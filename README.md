@@ -1,5 +1,5 @@
-MoodLocator Description
-=======================
+MoodLocator
+===========
 
 #####What is MoodLocator?
 MoodLocator is a demo application created for Bluemix.
