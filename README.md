@@ -16,7 +16,7 @@ There are two kinds of descriptions. One called "Presentation" and the other one
 "Technical" is to fully understand my code, so that you can use the User Modeling Service in your own application. 
 
 
-##Tecnical
+##Technical
 >Explanation on GitHub is comming soon
 When you download the application, you will find an PDF, which discribes what everything does.
 
