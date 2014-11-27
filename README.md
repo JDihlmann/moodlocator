@@ -15,11 +15,25 @@ There are two kinds of descriptions. One called "Presentation" and the other one
 "Presentation" is to understand, what you need to run the application and present it.
 "Technical" is to fully understand my code, so that you can use the User Modeling Service in your own application. 
 
+_____________
+
+##Presentation
+>Presentation is comming soon
+
 
 ##Technical
 >Explanation on GitHub is comming soon.
  Documetation PDF will come on Friday 28th .
+ 
+```javascript
+//Require Modules 
+var express = require('express');
+var querystring = require('querystring');
+var bodyParser = require('body-parser');
+var extend = require('util')._extend;
+var https = require('https');
+var url = require('url');
 
-
-##Presentation
->Presentation is comming soon
+//Require Custom Modules
+var flatten = require('./flatten');
+```
