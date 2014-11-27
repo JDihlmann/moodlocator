@@ -17,8 +17,8 @@ There are two kinds of descriptions. One called "Presentation" and the other one
 
 
 ##Technical
->Explanation on GitHub is comming soon
-When you download the application, you will find an PDF, which discribes what everything does.
+>Explanation on GitHub is comming soon.
+ Documetation PDF will come on Friday 28th .
 
 
 ##Presentation
