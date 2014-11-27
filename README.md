@@ -1,4 +1,4 @@
-MoodLocator
+MoodLocator - Bluemix Demo
 ===========
 
 #####What is MoodLocator?
@@ -15,11 +15,29 @@ There are two kinds of descriptions. One called "Presentation" and the other one
 "Presentation" is to understand, what you need to run the application and present it.
 "Technical" is to fully understand my code, so that you can use the User Modeling Service in your own application. 
 
+_____________
 
-##Technical
->Explanation on GitHub is comming soon
-When you download the application, you will find an PDF, which discribes what everything does.
-
-
-##Presentation
+#Presentation
 >Presentation is comming soon
+
+
+#Technical
+>Welcome to the technical view of my bluemix demo application. Here you will find everything to understand my Code. What you need to understand my code:
+- Basic knowledge of Bluemix
+- HTML 
+- CSS
+- Javascript
+- Node.js
+
+Do not be afraid when you are not a Pro in programming, I am neither. I provide some links in the end of the documentation, where I usually look things up, when I have an issue to understand some of these programming languages.
+If you have any questions , please to not hesitate to contact me …
+
+###Overview
+1. Directories and Files
+2. Basic Bluemix Node.js application
+
+ 
+```javascript
+//Require Modules 
+var express = require('express');
+```
