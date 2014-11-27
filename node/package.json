@@ -1,0 +1,14 @@
+{
+	"name": "moodlocator",
+	"version": "0.0.1",
+	"description": "Tweets ond Google Maps get analyzed by Watson",
+	"dependencies": {
+		"express": "^4.6.1",
+		"socket.io": "*",
+		"ejs": "^1.0.0"
+	},
+	"engines": {
+		"node": "0.10.26"
+	},
+	"repository": {}
+}

@@ -1,0 +1,453 @@
+body, html { 
+  position:  relative;
+  height:   100%;
+  width:    100%;
+  margin:   0;
+  padding:  0;
+
+  overflow: hidden;
+}
+
+
+
+
+/* Tweet Bubble */
+#divGoogle {
+  position: absolute;
+  bottom: 200px;
+  left: 200px;
+  height: 25px;
+  width: 25px;
+  z-index: 200;
+  border-radius: 100px;
+  background-color: #4099FF;
+  visibility: hidden;
+  overflow:hidden;
+
+  transition: width 0.6s, height 0.6s, margin 0.6s;
+}
+
+#divGoogle:hover{
+  width: 100px;
+  height: 100px;
+  margin: -40px;
+}
+
+#divGoogleContainer {
+  height: 75px;
+  width: 75px;
+  margin-top: 12px;
+  margin-left: 12px;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+#name {
+  height: 30%;
+  width: 100%;
+  margin: auto;
+  margin-top: 4px;
+  padding-top: 5px;
+  padding-right: 15px;
+  border-width: 1px;
+  border-bottom-style: dashed;
+  color: white;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 11px;
+  font-weight: 300;
+  text-align: center;
+}
+
+#text {
+  height: 50%;
+  width: 100%;
+  padding-top: 5px;
+  padding-right: 15px;
+
+  color: white;
+  overflow:hidden;
+  font-family: Roboto;
+  font-size: 8px;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+
+
+/* Google Maps */
+#map_canvas { 
+	position: absolute;
+  top: 0;
+	height:		85%;
+	width:		100%;
+}
+
+
+
+
+/* Textinput Element */
+#pac-input {
+  float: left;
+  background-color: #fff;
+  padding: 0 11px 0 13px;
+  width: 400px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  text-overflow: ellipsis;
+  margin-left: 2%;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+  margin-left: 2%;
+  padding-left: 14px;  /* Regular padding-left + 1. */
+  width: 401px;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+.controls {
+  margin-top: 1%;
+  margin-left: 2%;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+/* White Stripe On the Bottom of the Page */
+#footer {
+  position:   absolute;
+  bottom:   0;
+  z-index:  1;
+  height:   15%;
+  width:    100%;
+  min-height: 110px;
+  z-index:  1;
+  background-color: white;
+}
+
+/* Watson Progress Bars */
+#watson_footer {
+  width:  50%;
+  height: 100%;
+  float: left;
+  display: inline-block;
+  background-color: white;
+}
+    
+#watson_header{
+  width:  100%;
+  height: 30px;
+  padding-left: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: white;
+}
+
+#cityContainer{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+#firstCity{
+  width: 100%;
+  height: 34px;
+  margin-top: 6px;
+  background-color: none;
+}
+
+/* First City */
+#firstCityName{
+  width: 40%;
+  height: 27px;
+  padding-top: 7px; 
+  float: left;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  background-color: none;
+}
+
+#firstCityProgressBar{
+  width: 60%;
+  height: 34px;
+  float: right;
+  background-color: none;
+}
+
+#firstCityProgressBarOuter {
+  position: relative;
+  height: 20px;
+  width: 90%;
+  margin-top: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 2px solid black;
+  border-color: black;
+  text-align: center;
+}
+
+#firstCityProgressBarPercent{
+  position: absolute;
+  z-index: 5;
+  left: 47%;
+  visibility: hidden;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+#firstCityProgressBarInner{
+  height: 16px;
+  width: 0%;
+  background-color: #4099FF;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#firstCityStyleProgressBar{
+  height: 4px;
+  width: 0%;
+  background-color: #6BB0FF;
+}
+
+/* Second City */
+#secondCity{
+  position: relative;
+  width: 100%;
+  height: 34px;
+  margin-top: 6px;
+  background-color: none;
+}
+
+#secondCityName{
+  width: 40%;
+  height: 27px;
+  padding-top: 7px; 
+  float: left;
+  text-align: center;
+  background-color: none;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#secondCityProgressBar{
+  width: 60%;
+  height: 34px;
+  float: right;
+  background-color: none;
+}
+
+#secondCityProgressBarOuter {
+  position: relative;
+  height: 20px;
+  width: 90%;
+  margin-top: 6px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 2px solid black;
+  border-color: black;
+  text-align: center;
+}
+
+#secondCityProgressBarPercent{
+  position: absolute;
+  z-index: 5;
+  left: 47%;
+  visibility: hidden;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+#secondCityProgressBarInner{
+  height: 16px;
+  width: 0%;
+  background-color: #4099FF;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#secondCityStyleProgressBar{
+  height: 4px;
+  width: 0%;
+  margin-right: 10px;
+  background-color: #6BB0FF;
+}
+
+
+
+
+/* Watson Menu */
+#menu_footer {
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  background-color: white;
+}
+
+#menu_header{
+  width:  100%;
+  height: 28px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: white;
+}
+
+#menu_header_container{
+  width:  100%;
+  height: 25px;
+  display: block; 
+  margin-top: 2px;
+  margin-left: -1px;
+  background-color: white;
+  border-left: 1px solid gray;
+}
+
+#buttonLeft{
+  float: left;
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+  margin-left: 50px;
+  border: 0px solid black;
+  background-color: white;
+  border-radius: 0px;
+  background-image: url(/images/left_arrow.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  transition: margin-left 0.2s;
+}
+
+#buttonLeft:hover{
+  margin-left: 45px;
+}
+
+#buttonRight{
+  float: right;
+  height: 20px;
+  width: 20px;
+  margin-top: 5px;
+  margin-right: 50px;
+  border: 0px solid black;
+  background-color: white;
+  border-radius: 0px;
+  background-image: url(/images/right_arrow.png);
+  background-size: 60%;
+  background-repeat: no-repeat;
+  transition: margin-right 0.2s;
+}
+
+#buttonRight:hover{
+  margin-right: 45px;
+}
+
+#menuContainer{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#menuButtons{
+  width: 100%;
+  height: 75%;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.buttonStyle{
+  overflow:hidden;
+  width: 100%;
+  height: 34%;
+  background-color: white;
+  border-radius: 0px;
+  border: 0.5px solid rgba(0,0,0,0.1);
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 300;
+  box-shadow: inset 0px 0px 10px 1px rgba(0,0,0,0.1);
+  text-overflow: ellipsis;
+  transition: box-shadow 0.5s;
+}
+
+.buttonStyle:hover{
+  box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0);
+}
+
+#row1{
+  width: 33%;
+  height: 100%;
+  float: left;
+  display: inline-block;
+  background-color: white;
+}
+
+#row2{
+  width: 34%;
+  height: 100%;
+  display: inline-block;
+  background-color: white;
+}
+
+#row3{
+  width: 33%;
+  height: 100%;
+  float: right;
+  display: inline-block;
+  background-color: white;
+}
+
+
+
+
+/* Button Design / GitHub / Bluemix */
+#information_footer {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  float: right;
+  display: inline-block;
+  margin-left: 1px;
+  background-color: white;
+}
+
+#section1{
+  width: 100%;
+  height: 25%;
+  //box-shadow: inset 0px 0px 19px 6px rgba(0,0,0,0.2);
+  //background-color: yellow;
+  }
+
+.shadow {
+  -webkit-box-shadow: inset 0px 0px 4px 6px rgba(0,0,0,0.2);
+  -moz-box-shadow: inset 0px 0px 19px 6px rgba(0,0,0,0.2);
+  box-shadow: inset 0px 0px 19px 6px rgba(0,0,0,0.2);
+}
+
+
+
+
+/* For Presentation activate oder deactivate the Section below */
+
+#footer{ visibility: hidden;}
+#map_canvas{ height: 100%;}
+
+
