@@ -1,4 +1,4 @@
-MoodLocator
+MoodLocator - Bluemix Demo
 ===========
 
 #####What is MoodLocator?
