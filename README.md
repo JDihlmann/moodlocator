@@ -17,23 +17,27 @@ There are two kinds of descriptions. One called "Presentation" and the other one
 
 _____________
 
-##Presentation
+#Presentation
 >Presentation is comming soon
 
 
-##Technical
->Explanation on GitHub is comming soon.
- Documetation PDF will come on Friday 28th .
+#Technical
+>Welcome to the technical view of my bluemix demo application. Here you will find everything to understand my Code. What you need to understand my code:
+- Basic knowledge of Bluemix
+- HTML 
+- CSS
+- Javascript
+- Node.js
+
+Do not be afraid when you are not a Pro in programming, I am neither. I provide some links in the end of the documentation, where I usually look things up, when I have an issue to understand some of these programming languages.
+If you have any questions , please to not hesitate to contact me …
+
+###Overview
+1. Directories and Files
+2. Basic Bluemix Node.js application
+
  
 ```javascript
 //Require Modules 
 var express = require('express');
-var querystring = require('querystring');
-var bodyParser = require('body-parser');
-var extend = require('util')._extend;
-var https = require('https');
-var url = require('url');
-
-//Require Custom Modules
-var flatten = require('./flatten');
 ```
