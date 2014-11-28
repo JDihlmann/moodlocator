@@ -10,6 +10,8 @@ This description explains how to easily upload an alone standing application to 
 MoodLocator uses Google Maps and Twitter to display the current Twitter Messages (Tweets) on a map. This has a city name as defined search criteria and therefore also defines the border area to collect the tweets. 
 Bluemix provides the cloud platform where this app runs and even though one of the Bluemix services called Watson User Modeling will be chosen to combine.The Watson User Modeling service collects the City Tweets and uses linguistic analytics to extract a spectrum of cognitive and social characteristics of them.
 
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/files.jpg)
+
 #####What you will find here?
 There are two kinds of descriptions. One called "Presentation" and the other one called "Technical".
 "Presentation" is to understand, what you need to run the application and present it.
@@ -18,7 +20,7 @@ There are two kinds of descriptions. One called "Presentation" and the other one
 _________________________________________________________________________________________
 
 #Presentation
->Presentation is comming soon
+>Presentation is curently under cunstruction
 
 Welcome to the presentation view of my Bluemix demo application. 
 
@@ -34,25 +36,41 @@ This preparation documentation is made, so that you can jump over sections you h
 
 ####Overview
 1. Get your Accounts
-2. Install the Software you need
+2. Install the Software
 
 
 
 #####1. Get your Accounts
 You need to get Tweets so we have to create a Twitter Developer Account and  we need a Bluemix Account where we can upload our application and add services.
 
-Lets’s get started with the Twitter Developer Account. 
-    Open your Browser and go to the [Twitter] Homepage. 
-    If you don’t already have a Twitter Account register for it and create one. 
-    If you do have a Twitter Account be sure to log off and reload the Twitter Homepage again. 
-    On the bottom of the page you will see a blue line with serveral options. 
-    Click at the developer section.
+Lets’s get started with the Twitter Developer Account. Open your Browser and go to the [Twitter] Homepage. If you don’t already have a Twitter Account register for it and create one. If you do have a Twitter Account be sure to log off and reload the Twitter Homepage again. On the bottom of the page you will see a blue line with serveral options. Click at the developer section.
 > It should look like that:
 
-PICTURE
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/files.jpg)
 
-Go to the bottom of the page and search for the menu point „Tools“ and then click on „Manage Your Apps“. 
-Sign in with your Twitter Account 
+Go to the bottom of the page and search for the menu point „Tools“ and then click on „Manage Your Apps“.  Sign in with your Twitter Account . 
+
+>You will see a button in the middle of the Page which says „Create New AP“
+
+Click this button and follow the steps. Name your new App, describe your new App, add a placeholder Homepage to your App „http://yourappname.com“, agree the developer Agreement and finally click the button „Create your Twitter Application“.
+
+You have created your own Twitter App, now lets create the keys you need for your application.
+In the menu selected „Keys and Access Tokens“
+
+> You will see your Application Settings
+
+You already have a Consumer Key and a Consumer Secret but you also need a Access Token.
+Scroll to the bottom of the page and click on „Create my access token“.
+> It should look like that:
+
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/files.jpg)
+
+Copy these four Keys (Consumer Key, Consumer Secret, Access Token, Access Token Secret) and save them, do not give them to anybody. You need these keys, to connect to Twitter and authorize that it is your application who is connecting to Twitter. You will paste them later inside your application.
+
+
+
+
+
 
 
 _________________________________________________________________________________________
