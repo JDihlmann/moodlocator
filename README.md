@@ -81,7 +81,7 @@ You now will create your own Twitter application
 
 You have created your own Twitter App, now let's create the keys you need for your application.
 
-Selected "Keys and Access Tokens“
+	Select "Keys and Access Tokens“
 
 > You will see your Application Settings
 
