@@ -54,24 +54,43 @@ This preparation documentation is made, so that you can jump over sections you h
 You need to get Tweets so we have to create a Twitter Developer Account and  we need a Bluemix Account where we can upload our application and add services.
 ######Twitter
 Lets’s get started with the Twitter Developer Account. Open your Browser and go to the [Twitter] Homepage. 
-If you don’t already have a Twitter Account register for it and create one. If you do have a Twitter Account be sure to log off and reload the Twitter Homepage again. On the bottom of the page you will see a blue line with serveral options. Click at the developer section.
-> It should look like that:
+If you don’t already have a Twitter Account register for it and create one. If you do have a Twitter Account be sure to log off and reload the Twitter Homepage again. On the bottom of the page you will see a blue line with serveral options. 
+
+	Click on "developer"
+	
+> The Twitter developer will open. It should look like that:
 
 ![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/twitterDev.png)
 
-Go to the bottom of the page and search for the menu point „Tools“ and then click on „Manage Your Apps“.  Sign in with your Twitter Account . 
+Go to the bottom of the page and search for the menu point „Tools“ and then 
 
->You will see a button in the middle of the Page which says „Create New App“
+	Click on "Manage Your Apps“  
+	Sign in with your Twitter Account .
 
-Click this button and follow the steps. Name your new App, describe your new App, add a placeholder Homepage to your App „http://yourappname.com“, agree the developer Agreement and finally click the button „Create your Twitter Application“.
+You will see a button in the middle of the Page which says "Create New App“
 
-You have created your own Twitter App, now lets create the keys you need for your application.
-In the menu selected „Keys and Access Tokens“
+	Click on "Create New App“  	
+
+You now will create your own Twitter application
+
+	Name your new App
+	Describe your new App 
+	Add a placeholder Homepage to your App „http://yourappname.com“ 
+	Agree the developer Agreement
+	Click on  „Create your Twitter Application“.
+
+You have created your own Twitter App, now let's create the keys you need for your application.
+
+Selected "Keys and Access Tokens“
 
 > You will see your Application Settings
 
 You already have a Consumer Key and a Consumer Secret but you also need a Access Token.
-Scroll to the bottom of the page and click on „Create my access token“.
+Scroll to the bottom of the page until you see the button „Create my access token“.
+
+	Click on "Create my access token“
+	
+This step may take 1-2minutes. Your Access Token have been created.
 > It should look like that:
 
 ![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/twitterToken.jpg)
