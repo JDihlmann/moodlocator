@@ -20,7 +20,7 @@ There are two kinds of descriptions. One called "Presentation" and the other one
 _________________________________________________________________________________________
 
 #Technical
-> Currently under Cunstruction
+> Currently under Construction
 
 >It is very important, that the technical part is always up to date. When something changes, please contact me, I will change the code as quick as possible.
 
@@ -28,16 +28,16 @@ Welcome to the technical view of my Bluemix demo application.
 
 Here you will find everything you'll need to understand my Code. 
 
-What you need to understand my code:
+This is what you need to understand my code:
 
 - Basic knowledge of Bluemix
 - HTML 
 - CSS
-- Javascript
+- JavaScript
 - Node.js
 
-Do not be afraid when you are not a pro in programming, I'm neither. I provide some links in the end of the documentation, where I usually look things up, when I have an issue to understand some of these programming languages.
-If you have any questions , please to not hesitate to contact me!
+Do not be afraid when you are not a pro in programming, I'm neither. I’ll provide some links in the end of the documentation, where I usually look things up, when I have an issue to understand some of these programming languages.
+If you have any questions, please to not hesitate to contact me!
 
 
 
@@ -49,7 +49,7 @@ If you have any questions , please to not hesitate to contact me!
 
 
 #####1. Directories and Files
-Here are the directories and files you will find when you clone the application from GitHub and open the section node. Just take a quick look, we will go deeper at a later point of this documentation. When you get lost you can always come back here and get an Overview where we are in our apllication.
+Here are the directories and files you will find when you clone the application from GitHub and open the section node. Just take a quick look, we will go deeper at a later point of this documentation. When you get lost you can always come back here and get an Overview where we are in our application.
 
 ![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/files.jpg)
 
@@ -70,20 +70,65 @@ We start with the basic Starter Application, which you can download from [Bluemi
 I’ll pick a section, add my Code to it and describe what it does. Beware of jumping in the code! 
 I think it is better to understand the order of the Code, so I will jump between Server-Sided Code and Client-Sided Code.
 
-_________________________________________________________________________________________
+######app.js
+First of all we take a look in the core of the Starter Applicaion. We will find it in app.js, which is the server side JavaScript for your application written using the Node.js API.
 
+	Open node, which is in my GitHub repository, with any Text Editor 
+
+```javascript
+//Express is a minmal an flexiblel Node.js web application framework
+var express = require('express');
+//Insert modules here (...)
+
+//Setup middleware
+var app = express();
+app.use(express.static(__dirname + '/public'));
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
+
+
+//Render Index HTML / EJS
+app.get('/', function(req, res){
+	res.render('index');
+});
+
+//Get App Info only when connected to Bluemix
+var appInfo = JSON.parse(process.env.VCAP_APPLICATION || "{}");
+
+
+// (...) Lots of Code between this Section (...)
+
+
+//Get Service Info only when connected to Bluemix
+var services = JSON.parse(process.env.VCAP_SERVICES || "{}");
+
+
+//Set Host provided by Bluemix (when connected to it) or localhost 
+var host = (process.env.VCAP_APP_HOST || 'localhost');
+//Set Port provided by Bluemix (when connected to it ) or your Port 
+var port = (process.env.VCAP_APP_PORT || 3000);
+
+
+//When everything worked start Server 
+app.listen(port, host);
+
+
+// (...) Lots of Code between this Section (...)
+```
+
+_________________________________________________________________________________________
 #Presentation
->Presentation is curently under cunstruction
+>Presentation is currently under construction
 
 Welcome to the presentation view of my Bluemix demo application. 
 
-Here you will find everything you'll need to run and present my Code.
+Here you will find everything you'll need to run and present my code.
  
-This section will be split in to parts,  one part is of rpreparation to setup everything so that you can run the application and the other part to run the application and one way to present it.
+This section will be split in two parts. One part is for the preparation to set up everything to run the application and the other part is to run the application to present it.
 
 
-###Preperation
-This preparation documentation is made, so that you can jump over sections you have completed already. But take a quick look into each section and be sure you didn’t miss a step.
+###Preparation
+This preparation documentation is made, so that you can jump over sections which you’ve completed already. But take a quick look into each section and be sure you didn’t miss a step.
 
 
 
@@ -104,10 +149,11 @@ This preparation documentation is made, so that you can jump over sections you h
 
 
 #####1. Get your Accounts
-You need to get Tweets so we have to create a Twitter Developer Account and  we need a Bluemix Account where we can upload our application and add services.
+You need to get Tweets. So we have to create a Twitter Developer Account and  we need a Bluemix Account where we can upload our application and add the services.
+
 ######Twitter
-Lets’s get started with the Twitter Developer Account. Open your Browser and go to the [Twitter] Homepage. 
-If you don’t already have a Twitter Account register for it and create one. If you do have a Twitter Account be sure to log off and reload the Twitter Homepage again. On the bottom of the page you will see a blue line with serveral options. 
+Let’s get started with the Twitter Developer Account. Open your Browser and go to the [Twitter] Homepage. 
+If you don’t already have a Twitter Account register for it and create one. If you do have a Twitter Account be sure to log off and reload the Twitter Homepage again. On the bottom of the page you will see a blue line with several options. 
 
 	Click on "developer"
 	
@@ -129,8 +175,8 @@ You now will create your own Twitter application
 	Name your new App
 	Describe your new App 
 	Add a placeholder Homepage to your App „http://yourappname.com“ 
-	Agree the developer Agreement
-	Click on  „Create your Twitter Application“.
+	Confirm the developer agreement
+	Click on „Create your Twitter Application“.
 
 You have created your own Twitter App, now let's create the keys you need for your application.
 
@@ -138,7 +184,7 @@ You have created your own Twitter App, now let's create the keys you need for yo
 
 > You will see your Application Settings
 
-You already have a Consumer Key and a Consumer Secret but you also need a Access Token.
+You already have a Consumer Key and a Consumer Secret but you also need an Access Token.
 Scroll to the bottom of the page until you see the button "Create my access token“.
 
 	Click on "Create my access token“
@@ -148,7 +194,7 @@ This step may take 1 minute. Your Access Token have been created.
 
 ![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/twitterToken.jpg)
 
-Copy these four Keys (Consumer Key, Consumer Secret, Access Token, Access Token Secret) and save them, do not give them to anybody. You need these keys, to connect to Twitter and authorize that it is your application who is connecting to Twitter. You will paste them later inside your application.
+Copy these four Keys (Consumer Key, Consumer Secret, Access Token, Access Token Secret) and save them, do not give them to anybody. You need these keys, to connect to Twitter and authorize that it is your application which is connecting to Twitter. You will paste them later inside your application.
 
 ######Bluemix
 #####2. Create Bluemix Application 
