@@ -1,5 +1,5 @@
 MoodLocator - Bluemix Demo
-==========================
+===========
 
 #####What is MoodLocator?
 MoodLocator is a demo application created for Bluemix.
@@ -19,6 +19,41 @@ ________________________________________________________________________________
 
 #Presentation
 >Presentation is comming soon
+
+Welcome to the presentation view of my Bluemix demo application. 
+
+Here you will find everything you'll need to run and present my Code.
+ 
+This section will be split in to parts,  one part is of rpreparation to setup everything so that you can run the application and the other part to run the application and one way to present it.
+
+
+###Preperation
+This preparation documentation is made, so that you can jump over sections you have completed already. But take a quick look into each section and be sure you didn’t miss a step.
+
+
+
+####Overview
+1. Get your Accounts
+2. Install the Software you need
+
+
+
+#####1. Get your Accounts
+You need to get Tweets so we have to create a Twitter Developer Account and  we need a Bluemix Account where we can upload our application and add services.
+
+Lets’s get started with the Twitter Developer Account. 
+    Open your Browser and go to the [Twitter] Homepage. 
+    If you don’t already have a Twitter Account register for it and create one. 
+    If you do have a Twitter Account be sure to log off and reload the Twitter Homepage again. 
+    On the bottom of the page you will see a blue line with serveral options. 
+    Click at the developer section.
+> It should look like that:
+
+PICTURE
+
+Go to the bottom of the page and search for the menu point „Tools“ and then click on „Manage Your Apps“. 
+Sign in with your Twitter Account 
+
 
 _________________________________________________________________________________________
 
@@ -45,7 +80,7 @@ If you have any questions , please to not hesitate to contact me!
 
 
 
-###Overview
+####Overview
 1. Directories and Files
 2. Basic Bluemix Node.js application
 
@@ -66,8 +101,7 @@ We start with the basic Starter Application, which you can download from [Bluemi
     Click on 'View Quick Start' it is on the left side under the application header.
     Click on section 'Download the starter application package' and start dowloading.
 
-> It should look like that, if there are any changes please connact me, I will update my 
-code soon.
+> It should look like that, if there are any changes please connact me, I will update my code soon.
 
 
 
@@ -79,3 +113,4 @@ I think it is better to understand the order of the Code, so I will jump between
 
 
 [Bluemix]:https://console.ng.bluemix.net
+[Twitter]: https://twitter.com
