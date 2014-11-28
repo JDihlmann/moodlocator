@@ -10,7 +10,7 @@ This description explains how to easily upload an alone standing application to 
 MoodLocator uses Google Maps and Twitter to display the current Twitter Messages (Tweets) on a map. This has a city name as defined search criteria and therefore also defines the border area to collect the tweets. 
 Bluemix provides the cloud platform where this app runs and even though one of the Bluemix services called Watson User Modeling will be chosen to combine.The Watson User Modeling service collects the City Tweets and uses linguistic analytics to extract a spectrum of cognitive and social characteristics of them.
 
-![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/files.jpg)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/moodlocator.png)
 
 #####What you will find here?
 There are two kinds of descriptions. One called "Presentation" and the other one called "Technical".
@@ -46,7 +46,7 @@ You need to get Tweets so we have to create a Twitter Developer Account and  we 
 Lets’s get started with the Twitter Developer Account. Open your Browser and go to the [Twitter] Homepage. If you don’t already have a Twitter Account register for it and create one. If you do have a Twitter Account be sure to log off and reload the Twitter Homepage again. On the bottom of the page you will see a blue line with serveral options. Click at the developer section.
 > It should look like that:
 
-![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/files.jpg)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/twitterDev.png)
 
 Go to the bottom of the page and search for the menu point „Tools“ and then click on „Manage Your Apps“.  Sign in with your Twitter Account . 
 
@@ -63,7 +63,7 @@ You already have a Consumer Key and a Consumer Secret but you also need a Access
 Scroll to the bottom of the page and click on „Create my access token“.
 > It should look like that:
 
-![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/files.jpg)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/twitterToken.jpg)
 
 Copy these four Keys (Consumer Key, Consumer Secret, Access Token, Access Token Secret) and save them, do not give them to anybody. You need these keys, to connect to Twitter and authorize that it is your application who is connecting to Twitter. You will paste them later inside your application.
 
