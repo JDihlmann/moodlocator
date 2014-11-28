@@ -62,12 +62,12 @@ If you don’t already have a Twitter Account register for it and create one. If
 
 ![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/twitterDev.png)
 
-Go to the bottom of the page and search for the menu point „Tools“ and then 
+Go to the bottom of the page and search for the menu point "Tools“.
 
 	Click on "Manage Your Apps“  
 	Sign in with your Twitter Account .
 
-You will see a button in the middle of the Page which says "Create New App“
+> You will see a button in the middle of the Page which says "Create New App“
 
 	Click on "Create New App“  	
 
@@ -86,11 +86,11 @@ You have created your own Twitter App, now let's create the keys you need for yo
 > You will see your Application Settings
 
 You already have a Consumer Key and a Consumer Secret but you also need a Access Token.
-Scroll to the bottom of the page until you see the button „Create my access token“.
+Scroll to the bottom of the page until you see the button "Create my access token“.
 
 	Click on "Create my access token“
 	
-This step may take 1-2minutes. Your Access Token have been created.
+This step may take 1 minute. Your Access Token have been created.
 > It should look like that:
 
 ![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/twitterToken.jpg)
