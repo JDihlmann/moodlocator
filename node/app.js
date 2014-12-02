@@ -64,7 +64,7 @@ var auth = 'Basic ' + new Buffer(service_username + ':' + service_password).toSt
 
 
 
-//SetUp Server
+//Setup Server
 var host = (process.env.VCAP_APP_HOST || 'localhost');
 var port = (process.env.VCAP_APP_PORT || 8080);
 
@@ -186,7 +186,8 @@ io.on('connection', function(socket){
                               'Authorization' :  auth }
                             };
                             
-                        /*For presentation start commenting here    
+                        //For presentation start commenting here  
+                        
                         //Create a profile request with the text and the https options and call it
                         create_profile_request(profile_options,textToWatson)(function(error,profile_string) {
                             if (error) console.log(error.message);
@@ -206,7 +207,8 @@ io.on('connection', function(socket){
                                 socket.emit('watson message', watsonObj);
                                 //console.log(flat_traits);
                             }
-                        }); //*///For presentation stop commenting here   
+                        }); //For presentation stop commenting here 
+                        
                     }
 
 
@@ -231,3 +233,50 @@ io.on('connection', function(socket){
         }
     });
 });
+
+
+//For presentation start delete this section
+
+//Function you will find in the User Modeling documentation
+var create_profile_request = function(options,content) {
+  return function (/*function*/ callback) {
+    // create the post data to send to the User Modeling service
+    var post_data = {
+      'contentItems' : [{ 
+        'userid' : 'dummy',
+        'id' : 'dummyUuid',
+        'sourceid' : 'freetext',
+        'contenttype' : 'text/plain',
+        'language' : 'en',
+        'content': content
+      }]
+    };
+    // Create a request to POST to the User Modeling service
+    var profile_req = https.request(options, function(result) {
+      result.setEncoding('utf-8');
+      var response_string = '';
+
+      result.on('data', function(chunk) {
+        response_string += chunk;
+      });
+      
+      result.on('end', function() {
+
+        if (result.statusCode != 200) {
+          var error = JSON.parse(response_string);
+          callback({'message': error.user_message}, null);
+        } else
+          callback(null,response_string);
+      });
+    });
+  
+    profile_req.on('error', function(e) {
+      callback(e,null);
+    });
+
+    profile_req.write(JSON.stringify(post_data));
+    profile_req.end();
+  }
+};
+
+//For presentation stop deleting this section

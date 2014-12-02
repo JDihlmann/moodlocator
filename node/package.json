@@ -1,7 +1,7 @@
 {
 	"name": "moodlocator",
 	"version": "0.0.1",
-	"description": "Tweets ond Google Maps get analyzed by Watson",
+	"description": "Tweets on Google Maps get analyzed by Watson",
 	"dependencies": {
 		"express": "^4.6.1",
 		"socket.io": "*",
