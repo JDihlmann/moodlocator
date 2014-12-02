@@ -10,7 +10,7 @@ This description explains how to easily upload an alone standing application to 
 MoodLocator uses Google Maps and Twitter to display the current Twitter Messages (Tweets) on a map. This has a city name as defined search criteria and therefore also defines the border area to collect the tweets. 
 Bluemix provides the cloud platform where this app runs and even though one of the Bluemix services called Watson User Modeling will be chosen to combine.The Watson User Modeling service collects the City Tweets and uses linguistic analytics to extract a spectrum of cognitive and social characteristics of them.
 
-![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/0.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/0.png)
 
 #####What are you looking for?
 If you didn't test my application already, you can test it on [MoodLocator].
@@ -73,7 +73,7 @@ If you have any questions, please do not hesitate to contact me!
 #####1. Directories and Files
 Here are the directories and files you will find when you clone / download the application from GitHub and open the section node. Just take a quick look, we will go deeper into it at a later point of this documentation. When you get lost you can always come back here and get an overview where we are in the application.
 
-![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/ReadMe/1.jpg)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/1.jpg)
 
 
 
@@ -103,7 +103,7 @@ We start with the basic Starter Application, which you can download from [Bluemi
 
 >You downloaded the Starter Application from Bluemix and the files should look like that 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/2.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/2.png)
 
 b. When you understand how Node.js works, just clone / download my git repository and take a look in my code every time I add something.
 
@@ -128,7 +128,7 @@ To use ejs we have to update express to version ^4.6.1
 
 	In "dependencies" set the version of express to ^4.6.1
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/3.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/3.png)
 
 Now we have to delete our jade files and create an ejs file.
 
@@ -143,7 +143,7 @@ The app.js file is the core file, which is the server side JavaScript for your a
 
 > Without comments it will look like that
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/4.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/4.png)
 
 	4) Delete this line
 	5) Delete this line 
@@ -151,7 +151,7 @@ The app.js file is the core file, which is the server side JavaScript for your a
 
 > It should look like that now
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/5.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/5.png)
 
 Now we prepared our application and can start building it. Here you will find the difference between [ejs] and [jade]. 
 
@@ -171,7 +171,7 @@ First of all we take a look in the core of the Starter Application, which we wil
 ######What is app.js
 Easy spoken our server is defined in app.js, everything what we are doing there has influence on our server. I copied our prepared application and added some comments and sections to it.
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/6.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/6.png)
 
 
 ![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
@@ -215,7 +215,7 @@ What elements will we need on our website, we will need a map to display the cit
 	Clone or download my application from GitHub
 	Open my "index.ejs" you will find it in "views"
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/7.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/7.png)
 
 
 ![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
@@ -224,7 +224,7 @@ What elements will we need on our website, we will need a map to display the cit
 ######Map
 We need to display a map on our website, so what do we need therefore.
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/8.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/8.png)
 
 5) Require "style.css" to style our website elements
 
@@ -240,7 +240,7 @@ In line 13 we call a JavaScript function "initialize()" but what will happen whe
 
 	Open my "script.js" you will find it in "public/scripts"
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/9.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/9.png)
 
 1) Start function "initialize()"
 
@@ -262,6 +262,7 @@ In line 13 we call a JavaScript function "initialize()" but what will happen whe
 
 17) Create map with map options and display it on the "map_canvas" element
 
+> Technical part fully completed soon issues with GitHub
 
 ![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
 
@@ -275,7 +276,6 @@ ________________________________________________________________________________
 
 
 #Presentation
->Presentation is currently under construction
 
 Welcome to the presentation view of my Bluemix demo application. 
 
@@ -329,7 +329,7 @@ If you don’t already have a Twitter account register for it and create one. If
 	
 > The Twitter developer will open. It should look like that:
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/10.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/10.png)
 
 Go to the bottom of the page and search for the menu point "Tools“.
 
@@ -362,7 +362,7 @@ Scroll to the bottom of the page until you see the button "Create my access toke
 This step may take 1 minute. Your Access Token have been created.
 > It should look like that:
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/11.jpg)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/11.jpg)
 
 Copy these four Keys (Consumer Key, Consumer Secret, Access Token, Access Token Secret) and save them, do not give them to anybody. You need these keys, to connect to Twitter and authorize that it is your application which is connecting to Twitter. You will paste them later inside your application.
 
@@ -373,7 +373,7 @@ Copy these four Keys (Consumer Key, Consumer Secret, Access Token, Access Token 
 ######Bluemix
 Let’s go further on and look at our Bluemix account we open our browser, if nor already opened, and go to the [Bluemix] website.
 
-![alt tag](12)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/12.png)
 
 You have to create a Bluemix account.
 
@@ -385,7 +385,7 @@ Follow the steps and log in afterwards.
 
 You will land on your Bluemix Dashboard, where you can see, which application you have and which do run and which don’t. Also you can create new application and services. 
 
-![alt tag](13)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/13.png)
 
 
 
@@ -405,14 +405,14 @@ Runtime / programming language. MoodLocator is written in plain Node.js, so take
 
 Now you will see the application information window, where you can name your application.
 
-![alt tag](14)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/14.png)
 
 	Choose a unique name like "YourNameMoodLocator"
 	Click on "Create"
 
 When the application is created, you will see to a new window.
 
-![alt tag](15)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/15.png)
 
 Right now a demo application is running, you can find it, by clicking the URL beneath your application name or pasting your ApplicationName.mybluemix.net inside your browser bar.
 
@@ -485,7 +485,7 @@ You unpack the folder and moved it to a position where it is easy to access it. 
 For example I named my application "JanMoodLocator".
 >It should look like that
 
-![alt tag](16)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/16.png)
 
 	Enter in Line 3 "host:" "YourApplicationName" (without quotation marks)
 	Enter in Line 3 "host:" "YourApplicationName" (without quotation marks)
@@ -512,7 +512,7 @@ When you found it, we will put your Twitter credentials inside it.
 	Enter in line 139 "insert_access_token_secret" (Keep quotation marks)
 	Save your changes
 
-![alt tag](17) 
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/17.png) 
 
 Keep in mind to delete your credentials, when you are given your code to anybody else.
 
@@ -539,13 +539,14 @@ You will see a variety of Bluemix services you can add to your application, but 
 
 A window will pop up where you can add the Watson User Modeling Service to our application.
 
-![alt tag](18)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/18.png)
 
 	Click on "Select an application"
 	Search for the name of your application and click on it
 	Click on "Create"
 
 The service will be prepared and combined to your application. In the last step we have to upload our application to Bluemix
+
 
 
 ![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/bigstep.png)
@@ -576,7 +577,7 @@ Your Terminal or CMD window will open where you can put in commands, like go to 
 	Type in "$ cd Desktop" (without dollar icon and quotes)
 	Type in "$ cd node" (without dollar icon and quotes)
 
-[alt tag](19)
+[alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/19.png)
 
 We are now inside the node application. Go back to "View Quick Start" and copy paste the next steps into your Terminal or CMD
 
