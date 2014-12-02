@@ -577,7 +577,7 @@ Your Terminal or CMD window will open where you can put in commands, like go to 
 	Type in "$ cd Desktop" (without dollar icon and quotes)
 	Type in "$ cd node" (without dollar icon and quotes)
 
-[alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/19.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/19.png)
 
 We are now inside the node application. Go back to "View Quick Start" and copy paste the next steps into your Terminal or CMD
 
