@@ -66,7 +66,7 @@ If you have any questions, please do not hesitate to contact me!
 
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/bigstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/bigstep.png)
 
 
 
@@ -77,7 +77,7 @@ Here are the directories and files you will find when you clone / download the a
 
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/bigstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/bigstep.png)
 
 
 
@@ -86,7 +86,7 @@ My documentation will be like a tutorial, that means, we start at the very basic
 I think it is better to understand the chronicle order of the code, so I will jump between server-sided code and client-sided code. 
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)
 
 
 ######Download Starter Application
@@ -108,7 +108,7 @@ We start with the basic Starter Application, which you can download from [Bluemi
 b. When you understand how Node.js works, just clone / download my git repository and take a look in my code every time I add something.
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)
 
 
 ######Prepare Starter Application
@@ -157,7 +157,7 @@ Now we prepared our application and can start building it. Here you will find th
 
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/bigstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/bigstep.png)
 
 
 
@@ -165,7 +165,7 @@ Now we prepared our application and can start building it. Here you will find th
 First of all we take a look in the core of the Starter Application, which we will find it in app.js. I decided to split app.js in several sections, so we can pick one part finish it and go over to the next one.
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)
 
 
 ######What is app.js
@@ -174,7 +174,7 @@ Easy spoken our server is defined in app.js, everything what we are doing there 
 ![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/6.png)
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)
 
 
 ######Start the application
@@ -195,7 +195,7 @@ VI. We will come back later.
 
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/bigstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/bigstep.png)
 
 
 
@@ -205,7 +205,7 @@ Now we will look through the user perspective and add everything we need. As we 
 	Open the "index.ejs" file you created earlier you will find it in "views"
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)
 
 
 ######Skeleton of the website
@@ -218,7 +218,7 @@ What elements will we need on our website, we will need a map to display the cit
 ![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/7.png)
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)
 
 
 ######Map
@@ -264,14 +264,14 @@ In line 13 we call a JavaScript function "initialize()" but what will happen whe
 
 > Technical part fully completed soon issues with GitHub
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)
 
 
 _________________________________________________________________________________________
 
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/bigstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/bigstep.png)
 
 
 
@@ -284,7 +284,7 @@ Here you will find everything you'll need to run and present my code.
 This section will be split in two parts. One part is for the preparation to set up everything to run the application and the other part is to run the application to present it.
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)
 
 
 ###Preparation
@@ -310,7 +310,7 @@ This preparation documentation is made, so that you can jump over sections which
 
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/bigstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/bigstep.png)
 
 
 
@@ -318,7 +318,7 @@ This preparation documentation is made, so that you can jump over sections which
 You need to get Tweets. So we have to create a Twitter Developer Account and  we need a Bluemix Account where we can upload our application and add the services.
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)
 
 
 ######Twitter
@@ -367,7 +367,7 @@ This step may take 1 minute. Your Access Token have been created.
 Copy these four Keys (Consumer Key, Consumer Secret, Access Token, Access Token Secret) and save them, do not give them to anybody. You need these keys, to connect to Twitter and authorize that it is your application which is connecting to Twitter. You will paste them later inside your application.
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)
 
 
 ######Bluemix
@@ -389,7 +389,7 @@ You will land on your Bluemix Dashboard, where you can see, which application yo
 
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/bigstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/bigstep.png)
 
 
 
@@ -418,7 +418,7 @@ Right now a demo application is running, you can find it, by clicking the URL be
 
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/bigstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/bigstep.png)
 
 
 
@@ -426,7 +426,7 @@ Right now a demo application is running, you can find it, by clicking the URL be
 You have to install some Software to be able to upload an application to Bluemix. There is an easy tutorial provided by Bluemix to help you install the cf Command Line Tool.
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)
 
 
 ######cf Command Line Tool
@@ -445,7 +445,7 @@ A window will open, which describes you in small steps how to upload an applicat
 Your just installed the cf command-line tool, you could upload an application right now, but first we have to make some changes.
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)
 
 
 ######Other recommended Tools
@@ -453,7 +453,7 @@ In order to make changes, you need a tool to open my application. I recommend Su
 
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/bigstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/bigstep.png)
 
 
 
@@ -478,7 +478,7 @@ You unpack the folder and moved it to a position where it is easy to access it. 
 	Open "manifest.yml" with a text editor (Sublime, Notepad++)
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)   
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)   
 
 
 ######manifest.yml
@@ -494,7 +494,7 @@ For example I named my application "JanMoodLocator".
 Great when you upload your application Bluemix will now know that it is the application you just created on Bluemix
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/smallstep.png)   
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/smallstep.png)   
 
 
 ######app.js
@@ -520,7 +520,7 @@ We added everything to our code and saved our changes, now we have to add the Wa
 
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/bigstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/bigstep.png)
 
 
 
@@ -549,7 +549,7 @@ The service will be prepared and combined to your application. In the last step 
 
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/bigstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/bigstep.png)
 
 
 
@@ -599,7 +599,7 @@ Your application will now be pushed to Bluemix. This may take 1minute, after it 
 
 
 
-![alt tag](https://raw.githubusercontent.com/JustForADay/JustForADay/master/ReadMe/bigstep.png)
+![alt tag](https://raw.githubusercontent.com/JDihlmann/moodlocator/master/imageFiles/bigstep.png)
 
 
 
