@@ -609,6 +609,7 @@ You now can fully use the application on your own Bluemix account. If it doesn't
 
 If you want to add the Watson Service live to your application check out my [Liveslide]. 
 If you want to use the presentation clean and withoud comments check out my [Presentationslide].
+You will find every presentation file in the presentation folder.
 
 
 
