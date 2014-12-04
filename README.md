@@ -2,7 +2,7 @@ MoodLocator - Bluemix Demo
 ===========
 
 #####What is MoodLocator?
-MoodLocator is a demo application created for Bluemix.
+[MoodLocator] is a demo application created for Bluemix.
 It combines the API economy and Bluemix, which is a Platform as a Service, provided by IBM.
 This description explains how to easily upload an alone standing application to the Bluemix Cloud and to add Bluemix Services with it.
 
@@ -618,6 +618,8 @@ You will find every presentation file in the presentation folder.
 [Slideshare]:http://de.slideshare.net/JDihlmann/moodlocator-42161668
 [Liveslide]:http://www.slideshare.net/JDihlmann/moodlocator-hwt
 [Presentationslide]:http://www.slideshare.net/JDihlmann/moodlocator-unc
+
+[MoodLocator]:http://moodlocator.mybluemix.net
 
 [Technical]:https://github.com/JDihlmann/moodlocator/blob/master/README.md#technical
 [Presentation]:https://github.com/JDihlmann/moodlocator/blob/master/README.md#presentation
