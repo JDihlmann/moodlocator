@@ -526,6 +526,7 @@ We added everything to our code and saved our changes, now we have to add the Wa
 
 
 >If you want to add the Watson User Modeling Service live. Stop here and open to my [Liveslide] presentation.
+
 #####5. Add Watson Service
 In this part, we will add our Watson User Modeling Service to our application. To do that, we have to visit Bluemix Catalog.
 
@@ -618,8 +619,8 @@ You will find every presentation file in the presentation folder.
 [Liveslide]:http://www.slideshare.net/JDihlmann/moodlocator-hwt
 [Presentationslide]:http://www.slideshare.net/JDihlmann/moodlocator-unc
 
-[Technical]:https://github.com/JustForADay/JustForADay/blob/master/README.md#technical
-[Presentation]:https://github.com/JustForADay/JustForADay/blob/master/README.md#presentation
+[Technical]:https://github.com/JDihlmann/moodlocator/blob/master/README.md#technical
+[Presentation]:https://github.com/JDihlmann/moodlocator/blob/master/README.md#presentation
 
 [Sublime]:http://www.sublimetext.com
 [Notepad++]:http://notepad-plus-plus.org
