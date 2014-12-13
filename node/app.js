@@ -90,7 +90,7 @@ io.on('connection', function(socket){
 
         //Get Coordinate Rectangle For Twitter
         var lat = msg.coordinates.k;            
-        var lon = msg.coordinates.B;    
+        var lon = msg.coordinates.D;    
         var x = lat;
         var y = lon;
         var distance = 0;
